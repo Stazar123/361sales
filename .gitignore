@@ -1,0 +1,14 @@
+# Large / local data (never commit)
+data/raw/
+data/cleaned/
+data/interim/
+data/processed/
+data/computed/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# (Optional) keep only small artifacts (uncomment if you want)
+# !data/interim/*.parquet
+# !data/interim/*.json
